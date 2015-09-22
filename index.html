@@ -1,98 +1,81 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
-	<head>
-		<title>Rangana Maddumahewa</title>
 
-		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="./css3reset.css">
+	<!-- Hello! :D -->
+
+	<head>
+		<title>MatthewJA</title>
 		<link rel="stylesheet" type="text/css" href="./styles.css">
+		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript">
+			var screens = ["top", "goodsiricannotdraw", "codingandprogramming"];
+			function goToScreen(a) {
+						$('html, body').stop().animate({
+							scrollTop: $("#" + screens[a]).position().top
+						}, 400);
+			};
+		</script>
 	</head>
 	<body>
-		<header id="title">
+		<div id="top">
 			<h1>Hello, world! :D</h1>
-			I'm Rangana Maddumahewa. I make things sometimes!
-			
-			<nav>
-				<a href="##">Development Blog</a> -
-				<a href="##">GitHub</a> -
-				<a href="/">This Very Site</a>
-			</nav>
-		</header>
+			<h2>I am Matthew Alger and I make things sometimes</h2>
 
-		<section id="me">
-			<header><h2>About Me</h2></header>
-			<article>
-				<img src="./static/me.jpg" alt="Me">
-				<p>
-					I'm a graduate student with an interest in programming and computer science.<br>
-					I study computer science in IT at the SLIIT, and do a variety of neat things - like making this website - on the side.
-				</p>
+			<a class="box" id="gsicd" onclick="goToScreen(1); return false;" href="#goodsiricannotdraw">
+				Good Sir, I Cannot Draw
+			</a>
 
-				<p>
-					I like to program in .NET and CityMart/.NET, and sometimes even Java and Ruby. I have, for some reason, also been known to deal in PHP, C, and C++.
-					My greatest achievement is split somewhere between my current Project CityMart score and that time I hit the daily reputation cap on Stack Overflow.
-				</p>
+			<a class="box" id="codingprogramming" onclick="goToScreen(2); return false;" href="#codingandprogramming">
+				Coding and Programming
+			</a>
 
-				<p>
-					You can contact me at <strong>hello.i.am.rbasehewa<wbr>(at)<wbr>gmail<wbr>(dot)<wbr>com</strong>.
-				</p>
-			</article>
-		</section>
+			<a class="box" href="mailto:hello.i.am.matthewja@gmail.com">
+				Contact<br>
+				<span class="text">hello.i.am.matthewja@gmail.com</span>
+			</a>
 
-		<section id="projects">
-			<header><h2>Projects</h2></header>
+			<div id="stickman">
+				<img src="./static/stickman_frontfacing.png">
+			</div>
+		</div>
 
-			<article>
-				<header><h3>CityMart</h3></header>
+		<div id="goodsiricannotdraw">
+			<h1>Good Sir, I Cannot Draw</h1>
+			<h2>A webcomic about things, since 2010!</h2>
 
-				<img src="/Coffeequate/images/coffeequate_small.png" alt="CityMart">
+			<a class="box" id="gsicd2" href="http://gsicd.matthewja.com/">
+				Get on it!
+			</a>
 
-				<p>
-					<strong>CityMart</strong> 
-				</p>
+			<a class="back" onclick="goToScreen(0); return false;" href="#">&lt;BACK&gt;</a>
+		</div>
 
-				<p>
-					Successfully completed final year research project “Citymart”, which is about using Data Mining technology for Supermarket sales to predict Offers and generate decisions to supermarket managers. (C#, MS SQL 2008 R2, Visual Studio 2012,DATA MINING TECHNOLOGY-Time Series algorithm ,Apriori Algorithm).
-				</p>
+		<div id="codingandprogramming">
+			<h1>Coding and Programming</h1>
+			<h2>Here's some stuff I've done recently:</h2>
 
-				<p>
-					<a href="/Coffeequate/">Read more</a>, or check out <a href="##">the code</a>, brought to you by myself and the wonderful <a href="##">Buck Shlegeris</a>.
-				</p>
-			</article>
+			<a class="box" id="treegen" href="/html5tests/tree.html">
+				Tree Generator
+			</a>
 
-			<article>
-				<header><h3>Super Deal</h3></header>
+			<a class="box" id="patterns" href="/html5tests/patterns.html">
+				Patterns
+			</a>
 
-				<img src="/Graphical-Equation-Manipulator/images/gem_small.png" alt="Super Deal">
+			<a class="box" id="snake" href="/html5tests/snake.html">
+				Circle Snake
+			</a>
 
-				<p>
-					<strong>Super Deal</strong> Developed an E-Commerce website, an online supermarket system for “Super Deal”. (C#, ASP.NET 4.0, MS SQL 2008 R2, Visual Studio 2012) <a href="##">Buck&nbsp;Shlegeris</a>/<a href="##">pyGem</a>.
-				</p>
+			<h2>Here's some stuff I'm working on now:</h2>
 
-				<p>
-					<a href="##">Read more</a>, or check out <a href="http://github.com/MatthewJA/Graphical-Equation-Manipulator">the code</a>, brought to you by myself and <a href="http://github.com/BuckShlegeris">Buck Shlegeris</a>.
-				</p>
-			</article>
+			<a href="http://github.com/MatthewJA/Graphical-Equation-Manipulator" class="box" id="gem">
+				Graphical Equation Manipulator
+			</a>
 
-			<article>
-				<header><h3>Standalone Library System for Sumangala Vidyalaya Gampaha</h3></header>
+			<div id="euler"><img src="http://projecteuler.net/profile/MatthewJA.png"></div>
 
-				<img src="/snake/static/snake_logo.png" alt="Library System">
-
-				<p>
-					<strong>Standalone Library System for Sumangala Vidyalaya Gampaha</strong> is a delightfully fun and terribly easy game, according to absolutely nobody.
-				</p>
-
-				<p>
-					This was one of the first things I programmed in HTML. Developed a Standalone Library System for Sumangala Vidyalaya Gampaha. (JAVA with
-Net Beans and MySQL).
-				</p>
-
-				<p>
-					<a href="##>Go play it</a>, or check out <a href="##">the code</a>.
-				</p>
-			</article>
-		</section>
+			<a class="back" onclick="goToScreen(0); return false;" href="#">&lt;BACK&gt;</a>
+		</div>
 	</body>
 </html>
