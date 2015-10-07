@@ -1,97 +1,97 @@
-<!DOCTYPE html>
-<html>
+---
+layout: home
+title: BLOG
+description: "CodeInventory"
+headline: Nerds Feeder
+tags: [Amey, Jadiye, CodeInvemtory]
+---
+{% if site.paginate %}
+	{% for post in paginator.posts %}
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    <span class="day">
+                        {{ post.date | date: "%d" }}
+                    </span>
+                    <span class="month-year">
+                        {{ post.date | date: "%B %Y" }}
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="{{ site.url }}{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    
+                </div>
+            
+        </div>
+    </article>
+	{% endfor %}
+    <nav class="pagination" role="navigation">
+    {% if paginator.previous_page %}
+	    {% if paginator.previous_page == 1 %}
+	    <a class="newer-posts" href="{{ site.url }}"><i class="fa fa-chevron-left"></i> Newer</a>
+	    {% else %}
+	    <a class="newer-posts" href="{{ site.url }}/page{{ paginator.previous_page }}"><i class="fa fa-chevron-left"></i> Newer</a>
+	    {% endif %}
+	{% else %}
+    <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Newer</span>
+    {% endif %}
 
-	<!-- Hello! :D -->
-
-	<head>
-		<title>Rangana Maddumahewa</title>
-		<link rel="stylesheet" type="text/css" href="./styles.css">
-		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-		<script type="text/javascript">
-			var screens = ["top", "goodsiricannotdraw", "codingandprogramming"];
-			function goToScreen(a) {
-						$('html, body').stop().animate({
-							scrollTop: $("#" + screens[a]).position().top
-						}, 400);
-			};
-		</script>
-	</head>
-	<body>
-		<div id="top">
-			<h1>Hello, world!</h1>
-			<h2>I am Rangana Maddumahewa and I make things sometimes</h2>
-
-			<a class="box" id="gsicd" onclick="goToScreen(1); return false;" href="#goodsiricannotdraw">
-				My Projects
-			</a>
-
-			<a class="box" id="codingprogramming" onclick="goToScreen(2); return false;" href="#codingandprogramming">
-				Coding and Programming
-			</a>
-
-			<a class="box" href="mailto:rbasehewa@gmail.com">
-				Contact<br>
-				<span class="text">rbasehewa@gmail.com</span>
-			</a>
-
-			<div id="stickman">
-				<img src="./static/stickman_frontfacing.png">
-			</div>
-		</div>
-
-		<div id="goodsiricannotdraw">
-			<h1>MY PROJECTS</h1>
-			<div class="col-md-4 col-sm-12 text-left">
-			</div>
-			<h2>A webcomic about things, since 2011!</h2>
-
-			<div class="row col-md-8 col-sm-12">
-				<a class="box" id="gsicd2" href="http://gsicd.matthewja.com/">
-					Get on it!
-				</a>
-			</div>
-						
-			<div class="row col-md-8 col-sm-12">
-				<a class="box" id="gsicd2" href="http://gsicd.matthewja.com/">
-					Get on it!
-				</a>
-			</div>
-				
-			<div class="row col-md-8 col-sm-12">
-				<a class="box" id="gsicd2" href="http://gsicd.matthewja.com/">
-					Get on it!
-				</a>
-			</div>
-			
-			<a class="back" onclick="goToScreen(0); return false;" href="#">&lt;BACK&gt;</a>
-		</div>
-
-		<div id="codingandprogramming">
-			<h1>Coding and Programming</h1>
-			<h2>Here's some stuff I've done recently:</h2>
-
-			<a class="box" id="treegen" href="/html5tests/tree.html">
-				Tree Generator
-			</a>
-
-			<a class="box" id="patterns" href="/html5tests/patterns.html">
-				Patterns
-			</a>
-
-			<a class="box" id="snake" href="/html5tests/snake.html">
-				Circle Snake
-			</a>
-
-			<h2>Here's some stuff I'm working on now:</h2>
-
-			<a href="http://github.com/MatthewJA/Graphical-Equation-Manipulator" class="box" id="gem">
-				Graphical Equation Manipulator
-			</a>
-
-			<div id="euler"><img src="http://projecteuler.net/profile/MatthewJA.png"></div>
-
-			<a class="back" onclick="goToScreen(0); return false;" href="#">&lt;BACK&gt;</a>
-		</div>
-	</body>
-</html>
+    
+    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    	{% if paginator.next_page %} 
+        <a class="older-posts" href="{{ site.url }}/page{{ paginator.next_page }}/">Older <i class="fa fa-chevron-right"></i></a>
+    	{% else %}
+    	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
+    	{% endif %}
+	</nav>
+{% else %}
+	{% for post in site.posts %}
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    <span class="day">
+                        {{ post.date | date: "%d" }}
+                    </span>
+                    <span class="month-year">
+                        {{ post.date | date: "%B %Y" }}
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="{{ site.url }}{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>{{ post.content | strip_html | truncatewords:100 }}</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    
+                </div>
+            
+        </div>
+    </article>
+	{% endfor %}  
+{% endif %}
