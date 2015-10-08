@@ -1,27 +1,24 @@
 ---
-author: dilumnavanjana
+author: Rangana Maddumahewa
 layout: post
-title: "Introduction to Celluloid"
-date: 2015-09-18 21:00
+title: "Introduction to .Net"
+date: 2015-10-08 21:00
 comments: true
-category : celluloid
+category : .Net
 tags:
-- celluloid
+- .Net
 ---
 
-Celluloid provides a simple and natural way to build fault-tolerant concurrent programs in Ruby. With Celluloid, you can build systems out of concurrent objects just as easily as you build sequential programs out of regular objects. Recommended for any developer, including novices, Celluloid should help ease your worries about building multithreaded Ruby programs.
-By combining concurrency with object oriented programming, Celluloid frees you up from worry about where to use threads and locks. Celluloid combines them together into a single concurrent object oriented programming model, encapsulating state in concurrent objects and thus avoiding many of the problems associated with multithreaded programming. Celluloid provides many
-features which make concurrent programming simple, easy, and fun:
+The Build Conference is now behind us where lots of exciting things were announced, among them the release of Visual Studio 2015 RC1. This blog post discusses the changes to the .NET framework, the solution layout / configuration and serves as an introduction to the recommended programming style encouraged by Microsoft going forwards. If you haven’t downloaded Visual Studio 2015, grab it now!
 
-- ####Automatic "deadlock-free" synchronization: 
-Celluloid uses a concurrent object model which combines method dispatch and thread synchronization. Each actor is a concurrent object running in its own thread, and every method invocation is wrapped in a fiber that can be suspended whenever it calls
-out to other actors, and resumed when the response is available. This means methods which are waiting for responses from other actors, external messages, or other system events (including I/O with Celluloid::IO) can be suspended and will never block other methods that are ready to run. This won't prevent bugs in Celluloid, bugs in other thread-safe libraries you use, and even certain "dangerous" features of Celluloid from causing your program to deadlock, but in general, programs built with Celluloid will be naturally immune to deadlocks.
+- #### FRAMEWORK CHANGES: 
 
-- ####Fault-tolerance: 
-Celluloid has taken to heart many of Erlang's ideas about fault-tolerance in order to enable self-healing applications. The central idea: have you tried turning it off and on again? Celluloid takes care of rebooting subcomponents of your application when they crash, whether it's a single actor, or large (potentially multi-tiered) groups of actors that are all interdependent. This means rather than worrying about rescuing every last exception, you can just sit back, relax, and let parts of your program crash, knowing Celluloid will automatically reboot them in a clean state. Celluloid provides its own implementation of the core fault-tolerance concepts in Erlang including linking,supervisors,and supervision groups.
+Due to the rise of cloud hosting and the demand to host in any platform, not just Windows servers where you need to install the framework in order for your applications to work, ASP.NET 5 now supports two runtimes:
 
-+ ####Futures: 
-Ever wanted to call a method "in the background" and retrieve the value it returns later? Celluloid futures do just that. It's like calling ahead to a restaurant to place an order, so they can work on preparing your food while you're on your way to pick it up. When you ask for a method's return value, it's returned immediately if the method has already completed, or otherwise the current method is suspended until the value becomes available.
+Full .NET: This is what was being shipped until now. It’s the version that gets installed on your machine.
+CoreCLR: It’s the shiny new, cloud-optimized runtime that can run on any machine (Windows, Mac, Linux). To achieve this, the framework has been broken down into NuGet packages and applications only need to reference those packages that are needed. In fact only the primary dependencies, any inner dependencies are downloaded automatically. When you deploy your application to the host, it’s bundled up into a NuGet package itself including all the dependencies. This results in the bundle being larger than previously where only the files belonging to your application were included, but it means that the server doesn’t need to have the .NET framework installed.
+
+
 
 Cheers,
-BC_Dilum
+Rangana
