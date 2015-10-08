@@ -17,10 +17,10 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Programming is 1% knowledge, 2% ability and 97% getting the ability to work with the knowledge :)
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        BC_Dilum
+  twitter:        
   facebook:       Rangana Maddumahewa
-  github:         dilumn    
-  instagram:      Dilum_BC
+  github:             
+  instagram:      
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/+BCDilum
 
