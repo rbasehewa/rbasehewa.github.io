@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /about/index.html
-title: Dilum Navanjana
-tags: [Dilum, Navanjana]
+title: Rangana Maddumahewa
+tags: [Rangana, Maddumahewa]
 chart: true
 ---
 
