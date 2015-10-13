@@ -27,7 +27,7 @@ today I intended to cover for Model folder only. next tutorial I will cover on M
 2. Then update your entity model. (edmx file must update / hope you know to do it. if you got exception feel free to shout me.)
 3. if it is done next thing you must to do open your studentModel class, Next you can write, Create and Update model classes like this.
 
-[![Create Student Table](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/image2.png)](#features)
+[![Create and update model class](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/image2.png)](#features)
 
 
 
