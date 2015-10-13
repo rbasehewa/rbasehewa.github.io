@@ -11,7 +11,8 @@ tags:
 - MsSql
 ---
 
-Hi guys, 
+ Hi Guys, 
+ 
 	In this tutorial you can learn create and update model classes use in c#.
 	may be you are knowing or not knowing :D 
 
@@ -20,36 +21,30 @@ Hi guys,
 
 ![Create Student Table](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/image1.png?raw=true "Create Student Table")
 
-then open your .net project folder and in solution explorer add another new project folder name DataModel. In that folder you can add 2 folders.
-today I intended to cover for Model folder only. next tutorial I will cover on ModelFactories folder.
+		Then open your .net project folder in solution explorer and add another new project folder name DataModel.
+		In that folder you can add folder name "DataModel".
+		Today I intended to cover for Model folder only. next tutorial I will cover on ModelFactories folder.
 
 - #### Create a class in your project folder: 
 
-1. Add class name as StudentModel.
-2. Then update your entity model. (edmx file must update / hope you know to do it. if you got any exception error feel free to shout me.)
-3. if it is done next thing you must to do open your studentModel class and add Create and Update model classes like this.
-   
-   public class studentModel
-    {
-        public class CreateStudentModel
-        {       
-            public int studentId { get; set; }
-            public string studentName { get; set; }
-            public Nullable<int> Age { get; set; }
-            public string description { get; set; }
-        }
-
-        public class UpdateStudentModel
-        {
-            public int studentId { get; set; }
-            public string studentName { get; set; }
-            public Nullable<int> Age { get; set; }
-            public string description { get; set; }
-        }
-    }
-	
+		1. Add class name as StudentModel.
+		2. Then update your entity model. (edmx file must update / hope you know to do it. if you got any exception error feel free to shout me)
+		3. if it is done next thing you must to do open your studentModel class and add Create and Update model classes like this.
+   	
 ![Create and update model class](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/image2.png?raw=true "Create and Update")
 
+- #### Purpose:
+
+		- ### When you adding these crate and update models you can pass straightly to your web method.
+		- ### you don't need to send all data. 
+			- ## As an example let's think of user login example.
+			
+			you can remove password field on your Createmodel. when it is passing, you don't required your whole bunch of data. 
+			just need what is necessary data only.
+			
+			
+			
+			I will continue on this next tutorial.
 
 
 
