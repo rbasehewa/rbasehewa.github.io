@@ -4,7 +4,7 @@ layout: post
 title: "Create a sample date model"
 date: 2015-10-13 21:00
 comments: true
-category : C# , MSSQL
+category : C#
 tags:
 - C#
 - MsSql
