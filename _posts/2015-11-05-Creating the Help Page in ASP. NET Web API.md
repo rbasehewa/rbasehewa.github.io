@@ -84,7 +84,7 @@ tags:
     						@Html.DisplayForModel("TestClientReferences")
 								}
 
-![Solution in Visual Studio](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/API_html2.png? raw=true "Solution in Visual Studio")
+![Solution in Visual Studio](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/API_html2.png?raw=true "Solution in Visual Studio")
 
 
 
@@ -97,10 +97,10 @@ tags:
 		We can drag and drop these files into the TestClientreferences.cshtml file. For selecting the TestClientReferences.cshtml. Go to Solution Explorer and choose 
 		"Areas\HelpPage\Views\Help\Display Templates\TestClientReferences.cshtml".
 
-![test clint refference](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/testclintrefference.png? raw=true "test clint refference")
+![test clint refference](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/testclintrefference.png?raw=true "test clint refference")
 
 
-			The code looks like this:
+			---- The code looks like this:
 
 
 				@using System.Text.RegularExpressions
@@ -117,11 +117,11 @@ tags:
 				}
 				<script src="~/Scripts/WebApiTestClient.js" defer="defer"></script>
 
-				If these files are not showing in Scripts folder then you can download these files.
+			---- If these files are not showing in Scripts folder then you can download these files.
 
 
 
-		- #### After performing these steps, when we execute the application the Test API button is shown in lower-right corner. And the output looks like this:
+		---- After performing these steps, when we execute the application the Test API button is shown in lower-right corner. And the output looks like this:
 
 ![help page](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/helppage.png?raw=true "help page")
 
@@ -137,7 +137,8 @@ tags:
 
 		- #### Click on "Add header" and add the "accept text/xml" asking for XML. Click on the "Send" button.
 
-		The response is
+		---- The response is
+
 ![JSON Format](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/json.png?raw=true "JSON Format")
 
 		
