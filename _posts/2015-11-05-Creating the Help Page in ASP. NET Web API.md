@@ -30,30 +30,30 @@ tags:
 
 	- ### Install the test client package using the following procedure:
 
-		1. Go to Tools.
+		- ## Go to Tools.
 
-		2. choose "Library Package Manager" -> "Manage Nuget Packages" for the solution.
+		- ## Choose "Library Package Manager" -> "Manage Nuget Packages" for the solution.
 
-		3. Make sure to "Include Prerelease".
+		- ## Make sure to "Include Prerelease".
 
-		4. Type "webapitestclient" in the search TextBox in the top-right corner.
+		- ## Type "webapitestclient" in the search TextBox in the top-right corner.
 
-		5. Now click on install for installing it.
+		- ## Now click on install for installing it.
    	
 	![Install web Api test](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/webapitest.png?raw=true "Create and Install")
 
-			When the Web API Test Client is installed, the following files will be added to your application:
+----When the Web API Test Client is installed, the following files will be added to your application----
 
-			Scripts\WebApiTestClient.js
-			Areas\HelpPage\TestClient.css
-			Areas\HelpPage\views\Help\Display Template\TestClientReferences.cshtml
-			Areas\HelpPage\views\Help\Display Template\TestClientDialogs.cshtml
+- # Scripts\WebApiTestClient.js
+- # Areas\HelpPage\TestClient.css
+- # Areas\HelpPage\views\Help\Display Template\TestClientReferences.cshtml
+- # Areas\HelpPage\views\Help\Display Template\TestClientDialogs.cshtml
 			
-		6. Now write the Test Client on the help page.
+		- ## Now write the Test Client on the help page.
 		
 			For selecting the Api.cshtml, go to the Solution Explorer and choose "Areas\HelpPage\Views\Help\Display Templates\Api.cshtml".
 			
-				![Solution in Visual Studio](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/API_html1.png?raw=true "Solution in Visual Studio")
+![Solution in Visual Studio](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/API_html1.png?raw=true "Solution in Visual Studio")
 			
 			We add the following code in the Api.cshtml file that is @Html.DisplayForModel("TestClientDialogs"). We can add this code after the <div> tag. And @HtmlDisplayForModel("TestClientReferences") we can add this code inside the scripts section.
 
@@ -89,7 +89,7 @@ tags:
 
 
 
-		7. Now we add some JavaScript files into the TestClientReferences.cshtml that is visible in the scripts folder.
+		- ## Now we add some JavaScript files into the TestClientReferences.cshtml that is visible in the scripts folder.
 
 		jquery-1.8.2.js
 		knockoutjs 2.1.0.js
@@ -122,21 +122,21 @@ tags:
 
 
 
-		8. After performing these steps, when we execute the application the Test API button is shown in lower-right corner. And the output looks like this:
+		- ## After performing these steps, when we execute the application the Test API button is shown in lower-right corner. And the output looks like this:
 
 		![help page](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/helppage.png?raw=true "help page")
 
 
 
 
-		9. Now we test the Web API.
+		- ## Now we test the Web API.
 
 		We click on Test API button. There is the URI parameter open and one TextBox for the URI parameter.
 		And fill the value in the TextBox. Click on "Add header" and enter "application/json". That gives the response in JSON.
 
 		![Test Help Page](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/testHelpPage.png?raw=true "Test Help Page")
 
-		10. Click on "Add header" and add the "accept text/xml" asking for XML. Click on the "Send" button.
+		- ## Click on "Add header" and add the "accept text/xml" asking for XML. Click on the "Send" button.
 
 		The response is
 		![JSON Format](https://github.com/rbasehewa/rbasehewa.github.io/blob/master/images/json.png?raw=true "JSON Format")
