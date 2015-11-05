@@ -1,13 +1,12 @@
 ---
 author: Rangana Maddumahewa
 layout: post
-title: "Create a sample date model"
-date: 2015-10-13 21:00
+title: "Creating the Help Page in ASP. NET Web API"
+date: 2015-11-05 21:00
 comments: true
 category : C#
 tags:
 - C#
-- MsSql
 ---
 
  Hi Guys, 
