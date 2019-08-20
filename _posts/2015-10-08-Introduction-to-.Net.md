@@ -1,5 +1,5 @@
 ---
-author: Rangana Maddumahewa
+author: Ryan Maddumahewa
 layout: post
 title: "Introduction to .Net"
 date: 2015-10-08 21:00
