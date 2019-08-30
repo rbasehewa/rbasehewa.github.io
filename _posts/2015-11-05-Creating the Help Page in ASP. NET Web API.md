@@ -1,5 +1,5 @@
 ---
-author: Rangana Maddumahewa
+author: Ryan Maddumahewa
 layout: post
 title: "Creating the Help Page in ASP. NET Web API"
 date: 2015-11-05 21:00
@@ -146,4 +146,4 @@ tags:
 
 
 Cheers,
-Rangana
+Ryan

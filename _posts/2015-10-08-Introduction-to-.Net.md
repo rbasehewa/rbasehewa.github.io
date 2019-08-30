@@ -21,4 +21,4 @@ CoreCLR: It’s the shiny new, cloud-optimized runtime that can run on any machi
 
 
 Cheers,
-Rangana
+Ryan
