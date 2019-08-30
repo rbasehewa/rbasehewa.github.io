@@ -17,18 +17,18 @@ Now I work on Autotask API guidebook. According to this guidebook, it has predef
 
 These are the following main skills I have learned the first month on my internship
 
-1. 1st week: 
+1st week: 
 
     - Go around the company and talk with all the employees who currently working with a receptionist.
     - Work on simple PHP functions and coding.
     - Watched Laracast channel to get an idea Blade and PHP environment.
     - Work with PHP storm software.
     - Friday night having a good time with colleagues.
-2. 2nd week: 
+2nd week: 
 
     - Follow and work with Autotask API documentation.
     - Worked on Laravel MVC framework.
-3. 3rd week: 
+3rd week: 
 
     * Worked with Postman testing tool.
     * Worked on wsdp and asmx extensions.
