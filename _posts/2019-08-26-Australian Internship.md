@@ -17,13 +17,13 @@ Now I work on Autotask API guidebook. According to this guidebook, it has predef
 
 These are the following main skills I have learned the first month on my internship
 
---- ### 1st week: 
+---- #### 1st week: 
 
-    --- Go around the company and talk with all the employees who currently working with a receptionist.
-    --- Work on simple PHP functions and coding.
-    --- Watched Laracast channel to get an idea Blade and PHP environment.
-    --- Work with PHP storm software.
-    --- Friday night having a good time with colleagues.
+    ---- Go around the company and talk with all the employees who currently working with a receptionist.
+    ---- Work on simple PHP functions and coding.
+    ---- Watched Laracast channel to get an idea Blade and PHP environment.
+    ---- Work with PHP storm software.
+    ---- Friday night having a good time with colleagues.
 
 
 --- ### 2nd week: 
