@@ -1,5 +1,5 @@
 ---
-author: Rangana Maddumahewa
+author: Ryan Maddumahewa
 layout: post
 title: "Create a sample date model"
 date: 2015-10-13 21:00
