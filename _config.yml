@@ -1,7 +1,7 @@
-title:            Rangana
-description:      "Change the world consistent excellency"
+title:            RYAN ONLINE
+description:      "NOTHING PERSONAL"
 logo:             logo.png
-disqus_shortname: Work Hard
+disqus_shortname: OCNNECTING THE DOTS
 share:            true
 dropcap:	   true
 # Change url to your domain. Leave localhost server or blank when working locally.
@@ -11,18 +11,19 @@ dropcap:	   true
 
 # Owner/author information
 owner:
-  name:           Rangana Maddumahewa
+  name:           Ryan Maddumahewa
   avatar:         ameyjadiye.jpg
   email:          rbasehwa@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Programming is 1% knowledge, 2% ability and 97% getting the ability to work with the knowledge :)
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
-  facebook:       Rangana Maddumahewa
+  facebook:       Ryan Maddumahewa
   github:             
-  instagram:      
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/+RanganaMadushanMaddumahewa
+  instagram:
+  linkdin: https://www.linkedin.com/in/ryanmaddumahewa/ 
+
+
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-67683562-1
