@@ -9,7 +9,7 @@ tags:
 - Internship
 ---
 
-I’m currently doing my internship at [Enee solution Pvt Ltd](https://enee.com.au) in Adelaide as a Web developer trainer. I have previous experience in .Net framework around one year however, within this company I got an opportunity to learn PHP Laravel framework. I moved to Australia in 2016, to chase my master’s degree while this time framework couldn’t get an opportunity to work in a software development background. I’m quite happy finally work related to my field.
+I’m currently doing my internship at [Enee solution Pvt Ltd](https://enee.com.au) in Adelaide as a Web developer trainer. I have previous experience in .Net framework around one year. However, within this company I got an opportunity to learn PHP Laravel framework. I moved to Australia in 2016, to chase my master’s degree while this time framework couldn’t get an opportunity to work in a software development background. I’m quite happy finally work related to my field.
 
 In my workplace, I’m getting better knowledge from my mentor, he is capable and knowledgeable to solve any problem, therefore, it would be a better opportunity to enhance my skills.
 
