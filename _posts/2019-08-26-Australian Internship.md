@@ -16,7 +16,7 @@ In my workplace, I’m getting better knowledge from my mentor, he is capable an
 Now I work on Autotask API guidebook. According to this guidebook, it has predefined APIs, theoretically, I develop using company client data to matching according to the Autotask API documentation API code. I would be able to get a better outcome and during this time my mentor guided me and teach me where I was struggled.
 
 These are the following main skills I have learned the first month on my internship
---
+
 1. 1st week: 
 
     - Go around the company and talk with all the employees who currently working with a receptionist.
@@ -34,6 +34,10 @@ These are the following main skills I have learned the first month on my interns
     * Worked on wsdp and asmx extensions.
     * Fetching data from controllers and model to View.
     * Trying to send data from API to company client email template.
+
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 
 I hope to continue 12 weeks my journal post. 
 
