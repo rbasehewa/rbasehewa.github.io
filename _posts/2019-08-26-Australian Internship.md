@@ -28,17 +28,17 @@ These are the following main skills I have learned the first month on my interns
 
  ### 2nd week: 
 
-    --- Follow and work with Autotask API documentation.
-    --- Worked on Laravel MVC framework.
+    - Follow and work with Autotask API documentation.
+    - Worked on Laravel MVC framework.
 
 
 
  ### 3rd week: 
 
-    --- Worked with Postman testing tool.
-    --- Worked on wsdp and asmx extensions.
-    --- Fetching data from controllers and model to View.
-    --- Trying to send data from API to company client email template.
+    - Worked with Postman testing tool.
+    - Worked on wsdp and asmx extensions.
+    - Fetching data from controllers and model to View.
+    - Trying to send data from API to company client email template.
 
 I hope to continue 12 weeks my journal post. 
 
