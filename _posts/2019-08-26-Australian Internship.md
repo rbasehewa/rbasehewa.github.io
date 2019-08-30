@@ -4,9 +4,9 @@ layout: post
 title: "Australian Internship"
 date: 2019-08-26 21:00
 comments: true
-category : PHP
+category : PHP, Internships
 tags:
-- PHP
+- PHP, Internships
 ---
 
 The Build Conference is now behind us where lots of exciting things were announced, among them the release of Visual Studio 2015 RC1. This blog post discusses the changes to the .NET framework, the solution layout / configuration and serves as an introduction to the recommended programming style encouraged by Microsoft going forwards. If you haven’t downloaded Visual Studio 2015, grab it now!
