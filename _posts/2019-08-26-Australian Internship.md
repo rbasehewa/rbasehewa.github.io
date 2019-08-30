@@ -25,14 +25,14 @@ These are the following main skills I have learned the first month on my interns
     - Work with PHP storm software.
     - Friday night having a good time with colleagues.
 
-
+--
  ### 2nd week: 
 
     - Follow and work with Autotask API documentation.
     - Worked on Laravel MVC framework.
 
 
-
+--
  ### 3rd week: 
 
     - Worked with Postman testing tool.
