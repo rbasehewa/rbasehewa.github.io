@@ -15,19 +15,19 @@ In my workplace, I hope I will be having a better knowledge from my mentor, he i
 
 Currently, I started to work on Autotask API guidebook. According to this guidebook, it has predefined APIs. Theoretically, I have developed using company client data to matching according to the Autotask API documentation API code. I hope would be able to get a better outcome as well as if i have struggled I can get help from my mentor side by side. 
 
-These are the following main skills I have learned in the first week of my internship :) 
+## These are the following main skills I have learned in the first week of my internship :) 
 
-    * Talked with colleagues and shared some interesting facts.
-    * Work on simple PHP functions and coding.
-    * Worked on Laracast channel to get an idea Blade and PHP environment.
-    * Worked with PHP storm software.
-    * Followed Autotask API documentation.
-    * Worked on Laravel MVC framework.
-    * Worked with Postman testing tool.
-    * Worked on wsdp and asmx extensions.
-    * Fetching data from controllers and model to View.
-    * Send data from API to company client email template.
-    * Had an awesome time on Friday night. 
+ * Talked with colleagues and shared some interesting facts.
+ * Work on simple PHP functions and coding.
+ * Worked on Laracast channel to get an idea Blade and PHP environment.
+ * Worked with PHP storm software.
+ * Followed Autotask API documentation.
+ * Worked on Laravel MVC framework.
+ * Worked with Postman testing tool.
+ * Worked on wsdp and asmx extensions.
+ * Fetching data from controllers and model to View.
+ * Send data from API to company client email template.
+ * Had an awesome time on Friday night. 
 
 
 
