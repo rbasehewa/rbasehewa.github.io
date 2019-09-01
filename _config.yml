@@ -1,7 +1,7 @@
 title:            RYAN ONLINE
 description:      "NOTHING PERSONAL"
 logo:             logo.png
-disqus_shortname: OCNNECTING THE DOTS
+disqus_shortname: CONNECTING THE DOTS
 share:            true
 dropcap:	   true
 # Change url to your domain. Leave localhost server or blank when working locally.
@@ -15,12 +15,11 @@ owner:
   avatar:         ameyjadiye.jpg
   email:          rbasehwa@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Programming is 1% knowledge, 2% ability and 97% getting the ability to work with the knowledge :)
+  description:    Only half of programming is coding. The other 90% is dubugging. =D
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+   
   facebook:       Ryan Maddumahewa
-  github:             
-  instagram:
+  github: https://github.com/rbasehewa
   linkdin: https://www.linkedin.com/in/ryanmaddumahewa/ 
 
 

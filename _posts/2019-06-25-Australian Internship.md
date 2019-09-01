@@ -6,7 +6,8 @@ date: 2019-06-25 21:00
 comments: true
 category : Internship
 tags:
-- Internship, API
+- Internship
+- API
 ---
 
 This is my second week and continuing to work on my task which is sending data from API to company client email template.
