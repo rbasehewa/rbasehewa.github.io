@@ -6,7 +6,10 @@ date: 2019-07-02 21:00
 comments: true
 category : Internship
 tags:
-- Internship, API, CMS, jQuery 
+- Internship
+- API
+- CMS
+- jQuery 
 ---
 
 I have started my code review and changed to the company standard. The importance is stick to the standard are followings:
