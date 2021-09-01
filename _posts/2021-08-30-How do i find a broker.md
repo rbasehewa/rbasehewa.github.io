@@ -9,13 +9,13 @@ tags:
 - realestate
 - Property
 ---
-<section>
-<ol>
-    <li>Research the area and search who is leading that particular area in real estate. Touch with them. Get to know few people.</li>
-    <li>Spoke to the bank and compare with their interst rates. </li>
-    <li>Finally, who I deal with the comm bank (Felix agent). I found him from reference of friend of mine.</li>
-<ol>
-</section>
+## Highlighted points this week:
+
+
+* Research the area and search who is leading that particular area in real estate. Touch with them. Get to know few people.
+* Spoke to the bank and compare with their interst rates. 
+* Finally, who I deal with the comm bank (Felix agent). I found him from reference of friend of mine.
+
 
 - #### Top Story: 
 
