@@ -1,22 +1,23 @@
 ---
 author: Ryan Maddumahewa
 layout: post
-title: "Introduction to .Net"
-date: 2015-10-08 21:00
+title: "How do I find a broker when I buying my house"
+date: 2021-08-30 21:00
 comments: true
-category : .Net
+category : realestate
 tags:
-- .Net
+- realestate
+- Property
 ---
 
-The Build Conference is now behind us where lots of exciting things were announced, among them the release of Visual Studio 2015 RC1. This blog post discusses the changes to the .NET framework, the solution layout / configuration and serves as an introduction to the recommended programming style encouraged by Microsoft going forwards. If you haven’t downloaded Visual Studio 2015, grab it now!
+Research the area and search who is leading that particular area in real estate. Touch with them. Get to know few people. 
+Spoke to the bank and compare with their interst rates. 
+Finally, who I deal with the comm bank (Felix agent). I found him from reference of friend of mine.
 
-- #### FRAMEWORK CHANGES: 
 
-Due to the rise of cloud hosting and the demand to host in any platform, not just Windows servers where you need to install the framework in order for your applications to work, ASP.NET 5 now supports two runtimes:
+- #### Top Story: 
 
-Full .NET: This is what was being shipped until now. It’s the version that gets installed on your machine.
-CoreCLR: It’s the shiny new, cloud-optimized runtime that can run on any machine (Windows, Mac, Linux). To achieve this, the framework has been broken down into NuGet packages and applications only need to reference those packages that are needed. In fact only the primary dependencies, any inner dependencies are downloaded automatically. When you deploy your application to the host, it’s bundled up into a NuGet package itself including all the dependencies. This results in the bundle being larger than previously where only the files belonging to your application were included, but it means that the server doesn’t need to have the .NET framework installed.
+First of all, there was a friend of mine call Chalith who work in Uphill real estate. I went more than 10 properties to have a look with him. But I couldn’t interest even single one. Then every weekend I went through where my properties category list. Most of them are can’t afford. Then i met a nice and tidy propery in Pakenham. Yes why not, just deal with till last. It’s not smooth progress, we changed our first broker due to incident of credit check. We had a comm bank agent who helped us to bought our property within 2 days. That’s how I overcome my challenge.  
 
 
 
