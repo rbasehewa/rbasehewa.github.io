@@ -21,7 +21,7 @@ I've applied Salesforce developer role through [Seek](https://seek.com.au) ,and 
 
 ### Salesforce 
 
-    Salesforce is comoany informations put into the clouds mix up with great CRM. Thats pretty much basic about Salesforce. 
+    Salesforce is company informations put into the clouds mix up with great CRM. Thats pretty much basic about Salesforce. 
     It provides CRM services and focused on customer service, marketing automation, analytics and application development.  
 
 
