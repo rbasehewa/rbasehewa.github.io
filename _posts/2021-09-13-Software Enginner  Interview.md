@@ -17,6 +17,9 @@ The main difference is scoping rules. Variables declared by var keyword are scop
 ## what is your contribution to the company?
 
 
-What are decorators in Angular?
+## What are decorators in Angular?
+
+Decorators are a design pattern that is used to separate modification or decoration of a class without modifying the original source code. In AngularJS, decorators are functions that allow a service, directive or filter to be modified prior to its usage.
+
 
 
