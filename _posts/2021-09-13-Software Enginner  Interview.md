@@ -10,4 +10,13 @@ tags:
 - Angular
 ---
 
-Coming soon..
+## What's the difference between using "let" and "var"?
+
+The main difference is scoping rules. Variables declared by var keyword are scoped to the immediate function body (hence the function scope) while let variables are scoped to the immediate enclosing block denoted by { } (hence the block scope).
+
+## what is your contribution to the company?
+
+
+What are decorators in Angular?
+
+
