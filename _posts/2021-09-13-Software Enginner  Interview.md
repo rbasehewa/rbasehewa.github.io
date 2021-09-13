@@ -28,5 +28,12 @@ I use JavaScript, CSS, Html5 to styling UI componets. And Angular to binds HTML 
 
 Decorators are a design pattern that is used to separate modification or decoration of a class without modifying the original source code. In AngularJS, decorators are functions that allow a service, directive or filter to be modified prior to its usage.
 
+## what is asynchronous angular
+
+An async function can contain an await expression, that pauses the execution of the async function and waits for the past Promise's resolution, and then resumes the async function's execution and returns the resolved value. 
+
+wait or call back
+
+
 
 
