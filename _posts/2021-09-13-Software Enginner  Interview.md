@@ -16,6 +16,13 @@ The main difference is scoping rules. Variables declared by var keyword are scop
 
 ## what is your contribution to the company?
 
+Enee solution I’ve started my career as an intern. In that company, I’ve worked API integration using PHP laravel framework. Also, I have use HTML5, CSS, and javascript also. 
+I ‘ve created email templates for their clients to intergrate API for AUTOTASK tool. 
+(open tikcets/ close tickets)
+
+Then I’ve joined with ItechYouLearn. It’s an e-learning platform who can teach and earn money. Very similar to udemy platform. On the other hand, you can teach online classes and enroll. All the classes will save as proper guidline way.
+I use JavaScript, CSS, Html5 to styling UI componets. And Angular to binds HTML UI and javascript model. 
+
 
 ## What are decorators in Angular?
 
