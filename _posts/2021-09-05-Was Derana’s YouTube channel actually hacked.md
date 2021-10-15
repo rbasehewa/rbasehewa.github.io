@@ -1,16 +1,16 @@
----
+<!-- ---
 author: Ryan Maddumahewa
 layout: post
 title: "Was Derana’s YouTube channel actually hacked?"
 date: 2021-09-05 21:00
 comments: true
 category : Hacking
-tags:       
+tags:
 - TV Derana
 ---
 
-TV Derana YouTube Channel has 3 million subscribers. 
-Recently, It can be observed that the YouTube channel has been hacked and it’s logo has been changed, 700,000 posts disappeared and a bitcoin related video was broadcast live. 
+TV Derana YouTube Channel has 3 million subscribers.
+Recently, It can be observed that the YouTube channel has been hacked and it’s logo has been changed, 700,000 posts disappeared and a bitcoin related video was broadcast live.
 
 ## Purpose
 
@@ -18,4 +18,4 @@ The YouTubers believe that this is an attempt to gain further publicity and gene
 
 
 Cheers,
-Ryan
+Ryan -->
